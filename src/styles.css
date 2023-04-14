@@ -14,7 +14,7 @@
 }
 
 .card{
-  @apply rounded-2xl w-full m-auto max-w-[450px] overflow-hidden
+  @apply rounded-2xl w-full m-auto max-w-[450px] overflow-hidden border-2 border-transparent hover:scale-[1.03] transition ease-out duration-150
 }
 
 .card > div > img{
@@ -26,7 +26,7 @@
 }
 
 .stats-container{
-  @apply relative p-6 md:p-4 md:pr-0 lg:p-8 mx-[-2px] mb-[-2px] rounded-2xl bg-DarkBlue hover:bg-[#34397B] cursor-pointer mt-[-30px] md:mt-[-24px] z-10
+  @apply relative p-6 md:p-4 md:pr-0 lg:p-8 mx-[-2px] mb-[-4px] rounded-2xl bg-DarkBlue hover:bg-[#34397B] cursor-pointer mt-[-30px] md:mt-[-24px] z-10
 }
 
 .title-container{
