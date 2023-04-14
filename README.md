@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](public\images\screenshot.png)
+![](public/images/screenshot.png)
 
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/nicknjagi/time-tracking-dashboard)
-- Live Site URL: []()
+- Live Site URL: [https://delicate-conkies-194906.netlify.app/](https://delicate-conkies-194906.netlify.app/)
 
 ## My process
 
