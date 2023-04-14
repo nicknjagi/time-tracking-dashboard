@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body class="bg-VeryDarkBlue">
+  
+  <div class="flex items-center justify-center mx-auto text-white font-rubik px-4 py-16 md:py-0 md:h-screen lg:max-w-6xl">
+
+    <main class="grid gap-8 md:grid-cols-4 w-full">
+
+      <div class="bg-DarkBlue rounded-2xl md:col-span-1 w-full mx-auto max-w-[450px]">
+        <div class="profile-container">
+          <div class="w-20 ">
+            <img class="border-4 rounded-full" src="./images/image-jeremy.png" alt="jeremy">
+          </div>
+          <div class="font-light md:pb-8">
+            <span class=" text-PaleBlue">Report for</span>
+            <h1 class="text-2xl md:text-4xl capitalize">jeremy robson</h1>
+          </div>
+        </div>
+        <div class="btns p-6 md:p-4 lg:p-8  text-DesaturatedBlue flex md:flex-col md:gap-6 justify-between">
+          <span id="daily" class="hover:text-white"><a href="#">Daily</a></span>
+          <span id="weekly" class="hover:text-white active"><a href="#">Weekly</a></span>
+          <span id="monthly" class="hover:text-white"><a href="#">Monthly</a></span>
+        </div>
+      </div>
+
+      <div class="md:col-span-3 grid gap-8 md:grid-rows-2 md:grid-cols-3">
+        <!-- cards start -->
+          <div class=" bg-LightRed(work) card">
+            <div class="icon-container  mt-[-8px]" >
+              <img src="./images/icon-work.svg" alt="icon" aria-hidden="true">
+            </div>
+            <div class="stats-container">
+              <div class="title-container">
+                <h3 class="title">Work</h3>
+                <div>
+                  <a href="#"><img class="link" src="./images/icon-ellipsis.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="hrs-container">
+                <span class="current">32hrs</span>
+                <span class="previous">Last Week - 36hrs</span>
+              </div>
+            </div>
+          </div>
+          <!-- new card -->          
+          <div class=" bg-SoftBlue(play) card">
+            <div class="icon-container mt-[-8px]" >
+              <img src="./images/icon-play.svg" alt="icon" aria-hidden="true">
+            </div>
+            <div class="stats-container">
+              <div class="title-container">
+                <h3 class="title">Play</h3>
+                <div>
+                  <a href="#"><img class="link" src="./images/icon-ellipsis.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="hrs-container">
+                <span class="current">32hrs</span>
+                <span class="previous">Last Week - 36hrs</span>
+              </div>
+            </div>
+          </div>
+      <!-- new card -->
+          <div class="bg-LightRed(study) card">
+            <div class="icon-container mt-[-8px]" >
+              <img src="./images/icon-study.svg" alt="icon" aria-hidden="true">
+            </div>
+            <div class="stats-container">
+              <div class="title-container">
+                <h3 class="title">Study</h3>
+                <div>
+                  <a href="#"><img class="link" src="./images/icon-ellipsis.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="hrs-container">
+                <span class="current">32hrs</span>
+                <span class="previous">Last Week - 36hrs</span>
+              </div>
+            </div>
+          </div>
+          <!-- new card -->
+          <div class=" bg-LimeGreen(exercise) card">
+            <div class="icon-container " >
+              <img src="./images/icon-exercise.svg" alt="icon" aria-hidden="true">
+            </div>
+            <div class="stats-container">
+              <div class="title-container">
+                <h3 class="title">Exercise</h3>
+                <div>
+                  <a href="#"><img class="link" src="./images/icon-ellipsis.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="hrs-container">
+                <span class="current">32hrs</span>
+                <span class="previous">Last Week - 36hrs</span>
+              </div>
+            </div>
+          </div>
+          <!-- new card -->
+          <div class=" bg-Violet(social) card">
+            <div class="icon-container mt-[-10px] " >
+              <img src="./images/icon-social.svg" alt="icon" aria-hidden="true">
+            </div>
+            <div class="stats-container">
+              <div class="title-container">
+                <h3 class="title">Social</h3>
+                <div>
+                  <a href="#"><img class="link" src="./images/icon-ellipsis.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="hrs-container">
+                <span class="current">32hrs</span>
+                <span class="previous">Last Week - 36hrs</span>
+              </div>
+            </div>
+          </div>
+          <!-- new card -->
+          <div class=" bg-SoftOrange(self-care) card">
+            <div class="icon-containe mt-[-8px]" >
+              <img src="./images/icon-self-care.svg" alt="icon" aria-hidden="true">
+            </div>
+            <div class="stats-container">
+              <div class="title-container">
+                <h3 class="title">Self Care</h3>
+                <div>
+                  <a href="#"><img class="link" src="./images/icon-ellipsis.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="hrs-container">
+                <span class="current">32hrs</span>
+                <span class="previous">Last Week - 36hrs</span>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+
+
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
